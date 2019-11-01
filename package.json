@@ -1,0 +1,34 @@
+{
+  "name": "@dwebjs/ignore",
+  "description": "dWeb ignore library.",
+  "version": "1.0.0",
+  "contributors": [
+    "Jared Rice Sr. <jared@dpeeps.com>",
+    "Peeps Labs <labs@dpeeps.com>"
+  ],
+  "bugs": {
+    "url": "https://github.com/dwebjs/ignore/issues"
+  },
+  "dependencies": {
+    "anymatch": "^2.0.0"
+  },
+  "devDependencies": {
+    "standard": "*",
+    "tape": "^4.10.1"
+  },
+  "homepage": "https://dwebs.io",
+  "keywords": [
+    "dweb",
+    "distributed-web",
+    "dweb-ignore"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dwebjs/ignore.git"
+  },
+  "scripts": {
+    "test": "standard && tape test /*.js"
+  }
+}
